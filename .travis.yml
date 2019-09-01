@@ -3,6 +3,7 @@ node_js:
   - "10.16"
 install:
   - npm install
+  - npm install eslint --save-dev
 script:
   - node --stack-trace-limit=1000 example.js
   - npm run lint
