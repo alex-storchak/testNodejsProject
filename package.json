@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/alex-storchak/testNodejsProject/issues"
   },
-  "homepage": "https://github.com/alex-storchak/testNodejsProject#readme"
+  "homepage": "https://github.com/alex-storchak/testNodejsProject#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  }
 }
