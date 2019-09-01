@@ -4,7 +4,8 @@
   "description": "test project for checking env utilities",
   "main": "example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"./**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/alex-storchak/testNodejsProject#readme",
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "lint": "^0.7.0"
   }
 }
